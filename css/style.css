@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    line-height: 0.8;
+}
+body{
+    padding: 50px;
+}
+
+.bank-header h1{
+    padding-top: 60px;
+    
+}
+.login-submit{
+    width: 1000px;
+}
+.submitting-area{
+    padding: 40px 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+.submitting-area h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.submitting-area input{
+    margin-bottom: 25px;
+}
+
+#transaction-area{
+    display: none;
+}
+.status{
+    margin: 0 30px;
+    border-radius: 10px;
+    padding: 25px;
+    color: #fff;
+}
+.status h5{
+    font-size: 20px;
+}
+.status h2{
+    font-size: 50px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
