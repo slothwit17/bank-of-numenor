@@ -1,9 +1,21 @@
+
 //login button event handler
 document.getElementById('loginBtn').addEventListener('click', function(){
-    const loginArea = document.getElementById('login-part');
-    loginArea.style.display = 'none';
-    const transactionArea = document.getElementById('transaction-area');
-    transactionArea.style.display = 'block';
+
+    const loginEmail = document.getElementById('email').value;
+    const loginPass = document.getElementById('password').value;
+    if (loginEmail == "guruji@gmail.com" && loginPass == "guruji") {
+        const loginArea = document.getElementById('login-part');
+        loginArea.style.display = 'none';
+        const transactionArea = document.getElementById('transaction-area');
+        transactionArea.style.display = 'block';
+    }
+
+    else{
+        const passNotification = document.getElementById('password-notify');
+        passNotification.style.display = "block";
+    }
+    
 })
 
 //deposit button event handler

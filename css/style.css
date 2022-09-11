@@ -23,6 +23,18 @@ body{
     padding-top: 60px;
     
 }
+#password-notify{
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px gray;
+    display: none;
+}
+#password-notify p{
+    margin-bottom: 0;
+    color: #f92f60;
+}
 .login-submit{
     width: 1000px;
 }
